@@ -2,9 +2,9 @@
 <?php
 session_start();
 //echo"<script>alert('welcome')</script>";
-if($_POST["t1"]=="abcd"&&$_POST["t2"]=="123")
+if($_POST["t1"]=="ayush"&&$_POST["t2"]=="ayush")
 {
-     $_SESSION['user']="pavanchikka";
+     $_SESSION['user']="ayush";
     $con = mysqli_connect("localhost","root","","Petshop_management");
 if(!$con)
 { 
